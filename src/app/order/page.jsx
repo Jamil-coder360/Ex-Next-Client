@@ -3,7 +3,7 @@
 
 import { useState, useMemo, useEffect } from "react";
 
-const API_URL = "http://localhost:8000/users";
+const API_URL = "https://ex-next-server.vercel.app/user";
 
 const STATUS_STYLES = {
   Pending:    "bg-yellow-100 text-yellow-800",
