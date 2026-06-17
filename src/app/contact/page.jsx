@@ -41,7 +41,7 @@ export default function OrderForm() {
     setForm(INITIAL);
     setTimeout(() => setSubmitted(false), 3000);
 
-   const res = await fetch("http://localhost:8000/contact",{
+   const res = await fetch("https://ex-next-server.vercel.app/contact",{
         method :"POST" ,
         headers:{
             "content-type": "application/json"
