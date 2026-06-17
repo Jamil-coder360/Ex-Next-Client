@@ -4,6 +4,7 @@
 import { useState, useMemo, useEffect } from "react";
 
 const API_URL = "https://ex-next-server.vercel.app/contact";
+// const API_URL = "http://localhost:8000/contact";
 
 const STATUS_STYLES = {
   Pending:    "bg-yellow-100 text-yellow-800",
